@@ -1,0 +1,631 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.first-page {
+background-image: url("/images/coffee-table.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25em;
+    
+}
+
+.shop-name {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Clicker Script';
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4em;
+    color: white;
+}
+
+.info-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Playfair Display';
+}
+
+.navbar-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in {
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 24px;
+    width: 100px;
+    height: 48px;
+}
+
+
+.sign-out{
+    border-radius: 24px;
+    width: 100px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: none;
+    color: black;
+}
+
+.first-page-content {
+    width: 45%;
+    margin: 8em 0;
+    padding: 1.25em;
+}
+
+.first-page-content h4 {
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.first-page-content h1 {
+    font-family: 'Clicker Script';
+    font-weight: 400;
+    font-size: 220px;
+    color: white;
+}
+
+.first-page-content p {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.first-page-content button{
+    border-radius: 24px;
+    width: 134px;
+    height: 48px;
+    margin-top: 1em;
+    background-color: #F9C06A;
+    border: none;
+    color: black;
+}
+
+.second-page {
+    display: flex;
+}
+
+.second-page-content {
+    width: 50%;
+    padding: 5em;
+}
+
+.second-page img{
+    width: 50%;
+}
+
+.second-page-content h1 {
+    font-family: 'Playfair Display';
+    font-size: 54px;
+    font-weight: 700;
+    color: #603809;
+
+}
+
+.second-page-content p {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 400;
+    color: #707070;
+
+}
+
+.second-page-content button {
+    border-radius: 24px;
+    width: 134px;
+    height: 48px;
+    margin-top: 1em;
+    background-color: #F9C06A;
+    border: none;
+    color: black;
+
+}
+
+
+.coffee-splash img{
+    width: 30em;
+    height: 17em;
+    transform: scaleX(1.5);
+}
+
+.coffee-splash-2 {
+    width: 30em;
+    height: 17em;
+    transform: rotate(-180deg);
+
+}
+.third-page {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+   
+}
+
+.third-page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.third-page-header h1{
+    font-family: 'Playfair Display';
+    font-size: 54px;
+    font-weight: 700;
+    color: #603809;
+}
+
+.third-page-header h6{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 400;
+    color: #603809;
+}
+    
+
+.coffee-cards-section {
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+   
+}
+
+.coffee-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #F9C06A;
+    background-color: #FFF9F1;
+    
+}
+
+.coffee-card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    color: #603809;
+    font-family: 'Playfair Display';
+}
+ 
+.coffee-card-details h6 {
+    color: black;
+}
+
+.coffee-card-details button {
+    border-radius: 24px;
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: none;
+    color: black;
+    transform: translateY(25px);
+}
+
+
+.coffee-splash-2{
+    width: 30em;
+    height: 17em;
+    
+}
+
+.fourth-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.fourth-page-card-section {
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+}
+
+.fourth-page-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #F9C06A;
+    color: #603809;
+    background-color: #FFF9F1;
+    font-family: 'Playfair Display';
+    padding: 2.5em 1em;
+}
+
+.fourth-page-card h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.fourth-page-card h6{
+    font-size: 20px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.fourth-page-footnote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    color: #603809;
+    font-family: 'Playfair Display';
+}
+
+.fourth-page-footnote h3{
+    font-size: 24px;
+
+}
+
+.fourth-page-footnote h6 {
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.fourth-page-footnote button {
+    border-radius: 24px;
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: none;
+    color: black;
+    margin-bottom: 3em;
+}
+
+.fifth-page {
+    background-image: url("/images/Rectangle\ 14.png");
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.fifth-page-content {
+    z-index: 2;
+    padding: 10em 5em;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+ }
+
+.fifth-page-content h1 {
+    font-size: 54px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.fifth-page-content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+  
+}
+
+.fifth-page-content button {
+    border-radius: 24px;
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: none;
+    color: black;
+}
+
+
+.fifth-page-image {
+    /* position: absolute; */
+    /* display: flex; */
+    /* z-index: auto; */
+} 
+
+.fifth-image-cup {
+    position: relative;
+    z-index: 2;
+}
+
+.fifth-image-bean {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.overlay {
+    background-color: #603809;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* .last-page {
+   position: relative;
+} */
+
+
+.overlay-footer {
+    background-color: #603809;
+    background-size: cover;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.last-page-above-section {
+    background-image: url("/images/Rectangle\ 14.png");
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 50px;
+    /* padding: 3em; */
+}
+
+.last-page-above-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    padding: 3em;
+}
+
+.last-page-above-section h1 {
+    font-size: 54px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.last-page-above-section p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 2em;
+}
+
+.input-field-section input {
+    padding: 5px;
+    width: 600px;
+    height: 60px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+}
+
+.input-field-section button {
+   width: 137px;
+   height: 60px;
+   border-radius: 4px;
+   border: 1px;
+   background-color: #F9C06A;
+   color: #603809;
+   font-size: 22px;
+   font-family:'Playfair Display';
+}
+
+
+.footer-container {
+    background-image: url("/images/fotter_image.png");
+    display: flex;
+    padding: 8em 3em;
+    background-color: #603809;
+    color: white;
+    position: relative;
+    z-index: 2;
+    /* padding: 3em; */
+    width: 100%;
+    height: 100%;
+}
+
+.bean-scene-footer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 5em;
+    gap: 1.5em;
+}
+
+.bean-scene-footer h1 {
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Clicker Script';
+}
+
+.bean-scene-footer p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+}
+
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-information {
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+}
+
+.footer-information h2 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+}
+
+.footer-information a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    text-decoration: none;
+    color: white;
+}
+.footer-information h6 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    text-decoration: none;
+    color: white;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sixth-page {
+    padding: 10em 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.sixth-page h1 {
+    font-size: 54px;
+    font-family: 'Playfair Display';
+    color: #603809;
+}
+
+.sixth-page  p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    color: #707070;
+
+}
+
+.sixth-page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.sixth-page-content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #F9C06A;
+    background-color: #FFF9F1;
+    width: 90%;
+}
+
+.comment-section {
+    margin-bottom: 2em;
+    padding: 4em 4em 0;
+}
+
+
+.sixth-page-footer h3 {
+    margin-bottom: 0.2em;
+}
+
+.sixth-page-footer h6 {
+    margin-bottom: 3em;
+}
+
+.johnny-thomas {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+
+}
+
+.arrow-left {
+    position: absolute;
+    left: -54px;
+}
+
+.arrow-right {
+    position: absolute;
+    right: -54px;
+}
+
+.exclamation-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2em;
+}
+
+/* .comment-section-whole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.sixth-page-content h3 {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 700;
+    color: #603809;
+
+}
+
+.sixth-page-content h6 {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
